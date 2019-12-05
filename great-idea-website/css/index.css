@@ -65,100 +65,142 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-body {
+.container {
 	border: 1px solid gray;
+	margin: auto;
+	width: 100%;
 }
 
 .top-content {
-	border: 2px solid blue;
+	margin-left: 7%;
 }
 
 nav {
 	display: inline-block;
-	border: 2px solid red;
-	width: 75%;
+	width: 74%;
 	padding-top: 2%;
 	padding-bottom: -5%;
+	vertical-align: bottom;
 }
 
 a{
 	display: inline-block;
 	text-decoration: none;
 	color: gray;
-	border: 2px solid orange;
-	margin-left: 10%;
+	margin-right: 9.5%;
 	padding-top: 0;
-	padding-bottom: 0;
+	margin-bottom: 2%;
+	
 }
 
 .top-content img {
 	display: inline-block;
-	width: 20%;
-	margin-left: 3.5%;
+	width: 25%;
 	margin-top: 4%;
 }
 
 header {
 	display: inline-block;
-	border: 2px solid orange;
 	width: 100%;
+	border-bottom: 2px solid gray;
+	margin-top: 5%;
 }
 
 .Title {
 	display: inline-block;
-	border: 2px solid blue;
-	margin-left: 10%;
-	font-size: 100px;
+	
 	text-align: center;
-	margin-top: 12%;
-	width: 40%;
+	width: 45%;
+	vertical-align: bottom;
+	margin-left: 7%;
+	padding-bottom: 12%;
+	padding-left: 5%;
 }
 
 h1 {
 	display: inline-block;
+	font-size: 75px;
+	width: 100%;
 }
 header img {
 	display: inline-block;
-	border: 2px solid red;
-	margin-left: 8%;
-	width: 40%;
+	
+	width: 35%;
+	padding-bottom: 6%;
+	margin-left: 12%;
 }
 
 button {
 	border: 1px solid black;
-	font-size: 25px;
+	font-size: 18px;
 	color: black;
-	width: 40%;
+	width: 37%;
+	height: 35px;
+	vertical-align: top;
+}
+
+
+.middle-content {
+	margin-left: 5.15%;
+	margin-top: 3%;
+	margin-bottom: 3%;
 }
 
 .text-content1 {
 	display: inline-block;
-	border: 2px solid red;
-	width: 40%;
+	width: 47%;
 	margin-left: 2%;
+	font-size: 20px;
 }
 
 .text-content2 {
 	display: inline-block;
-	border: 2px solid red;
-	width: 40%;
+	width: 47%;
 	margin-left: 2%;
+	font-size: 20px;
+}
+
+.middle-img {
+	width: 92%;
+	margin-left: 7%;
+}
+
+.bottom-content {
+	margin-top: 3%;
+	border-bottom: 2px solid gray;
 }
 
 .text-content3 {
 	display: inline-block;
-	border: 2px solid red;
-	width: 20%;
+	width: 29.8%;
+	font-size: 20px;
+	margin-left: 7%;
+	margin-bottom: 4%;
 }
 
 .text-content4 {
 	display: inline-block;
-	border: 2px solid red;
-	width: 20%;
+	width: 29.8%;
+	font-size: 20px;
+	margin-left: 1%;
+	margin-bottom: 4%;
 }
 
 .text-content5 {
 	display: inline-block;
-	border: 2px solid red;
-	width: 20%;
+	width: 29.8%;
+	font-size: 20px;
+	margin-left: 1%;
+	margin-bottom: 4%;
+}
+
+.contact {
+	display: block;
+	margin-top: 4%;
+	margin-left: 7%;
+	font-size: 20px;
+}
+
+footer {
+	text-align: center;
 }
