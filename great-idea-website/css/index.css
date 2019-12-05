@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	max-width: 100%;
 }
 
 html, body {
@@ -64,3 +65,142 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	border: 1px solid gray;
+	margin: auto;
+	width: 100%;
+}
+
+.top-content {
+	margin-left: 7%;
+}
+
+nav {
+	display: inline-block;
+	width: 74%;
+	padding-top: 2%;
+	padding-bottom: -5%;
+	vertical-align: bottom;
+}
+
+a{
+	display: inline-block;
+	text-decoration: none;
+	color: gray;
+	margin-right: 9.5%;
+	padding-top: 0;
+	margin-bottom: 2%;
+	
+}
+
+.top-content img {
+	display: inline-block;
+	width: 25%;
+	margin-top: 4%;
+}
+
+header {
+	display: inline-block;
+	width: 100%;
+	border-bottom: 2px solid gray;
+	margin-top: 5%;
+}
+
+.Title {
+	display: inline-block;
+	
+	text-align: center;
+	width: 45%;
+	vertical-align: bottom;
+	margin-left: 7%;
+	padding-bottom: 12%;
+	padding-left: 5%;
+}
+
+h1 {
+	display: inline-block;
+	font-size: 75px;
+	width: 100%;
+}
+header img {
+	display: inline-block;
+	
+	width: 35%;
+	padding-bottom: 6%;
+	margin-left: 12%;
+}
+
+button {
+	border: 1px solid black;
+	font-size: 18px;
+	color: black;
+	width: 37%;
+	height: 35px;
+	vertical-align: top;
+}
+
+
+.middle-content {
+	margin-left: 5.15%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.text-content1 {
+	display: inline-block;
+	width: 47%;
+	margin-left: 2%;
+	font-size: 20px;
+}
+
+.text-content2 {
+	display: inline-block;
+	width: 47%;
+	margin-left: 2%;
+	font-size: 20px;
+}
+
+.middle-img {
+	width: 92%;
+	margin-left: 7%;
+}
+
+.bottom-content {
+	margin-top: 3%;
+	border-bottom: 2px solid gray;
+}
+
+.text-content3 {
+	display: inline-block;
+	width: 29.8%;
+	font-size: 20px;
+	margin-left: 7%;
+	margin-bottom: 4%;
+}
+
+.text-content4 {
+	display: inline-block;
+	width: 29.8%;
+	font-size: 20px;
+	margin-left: 1%;
+	margin-bottom: 4%;
+}
+
+.text-content5 {
+	display: inline-block;
+	width: 29.8%;
+	font-size: 20px;
+	margin-left: 1%;
+	margin-bottom: 4%;
+}
+
+.contact {
+	display: block;
+	margin-top: 4%;
+	margin-left: 7%;
+	font-size: 20px;
+}
+
+footer {
+	text-align: center;
+}
